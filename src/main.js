@@ -50,11 +50,6 @@ import {
 import App from './App'
 import router from './router'
 
-var hacks = require('viewport-units-buggyfill/viewport-units-buggyfill.hacks');
-require('viewport-units-buggyfill').init({
-  hacks: hacks
-});
-
 Vue.use(Button)
 Vue.use(Loading)
 Vue.use(Tip)

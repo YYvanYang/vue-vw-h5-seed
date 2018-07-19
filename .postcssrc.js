@@ -20,6 +20,6 @@ module.exports = {
       minPixelValue: 1, // (Number) Set the minimum pixel value to replace.
       mediaQuery: false // (Boolean) Allow px to be converted in media queries.
     },
-    'postcss-viewport-units': {},
+    // 'postcss-viewport-units': {},
   }
 };
